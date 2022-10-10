@@ -4,18 +4,18 @@ import AboutUs from '../../components/aboutUs';
 import Footer from '../../components/footer';
 
 const Home = () => {
-  return (
-    <>
-      <HeadHome />
-      <main>
-        <section id='body' >
-          <Features />
-        </section>
-        <AboutUs />
-      </main>
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<HeadHome />
+			<main>
+				<section id="body">
+					<Features />
+				</section>
+				<AboutUs />
+			</main>
+			<Footer />
+		</>
+	);
 };
 
 export default Home;
