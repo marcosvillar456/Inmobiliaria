@@ -2,7 +2,7 @@ import HeadHome from '../../components/head';
 import Features from '../../components/features';
 import AboutUs from '../../components/aboutUs';
 import Footer from '../../components/footer';
-
+import PropertyPresentation from '../../components/propertyPresentation';
 const Home = () => {
 	return (
 		<>
@@ -10,8 +10,11 @@ const Home = () => {
 			<main>
 				<section id="body">
 					<Features />
+					<PropertyPresentation />
 				</section>
-				<AboutUs />
+				<section>
+					<AboutUs />
+				</section>
 			</main>
 			<Footer />
 		</>

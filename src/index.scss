@@ -10,9 +10,12 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-$mobile: 600px;
+$mobile: 700px;
+$blue-theme: #007aff;
+
 
 @import './components/head/styles/index.scss';
 @import './components/features/styles/index.scss';
 @import './components/aboutUs/styles/index.scss';
 @import './components/footer/styles/index.scss';
+@import './components/propertyPresentation/styles/index.scss';

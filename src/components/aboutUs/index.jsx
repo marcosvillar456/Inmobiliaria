@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = (d) => {
 	return (
-		<section className="aboutUs">
+		<div className="aboutUs">
 			<div className="aboutUs__container">
 				<div className="aboutUs__container__title">Sobre nosotros:</div>
 				<div className="aboutUs__container__description">
@@ -18,7 +18,7 @@ const AboutUs = (d) => {
 				src="https://cdn.bizneo.com/blog/wp-content/uploads/2019/10/caracteristicas-del-trabajo-en-equipo.webp"
 				alt="team"
 			/>
-		</section>
+		</div>
 	);
 };
 
